@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: cursive;
+}
+body {
+    
+    background-color: black;
+    color: grey;
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(155, 134, 170);
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 2px black;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    height: 11vh;
+    width: 100vw;
+    position: fixed;
+    border: 2px solid indigo;
+    background-image: url(Pherkad\ LtFA-bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+nav a{
+    text-decoration: none;
+    margin: 0 .5vw;
+    padding: 3vh;
+    color:rgb(155, 134, 170);
+    font-size: 3.5vh;
+    text-shadow: 3px 3px 2px rgb(99, 37, 13);
+
+}
+#pherkad {
+    /* margin-top:0;
+    margin-right: 20vw;
+    margin-left: 10vw; */
+    padding: .25vh;
+    margin: 2vh 20vw 2vh 10vw ;
+    font-size: 4.75vh;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    flex-basis: 65%;
+    justify-self: center;
+    padding: 3vh;
+    /* margin: 3vh; */
+    margin-top: 13vh;
+    width: 65vw;
+    height: fit-content;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-image: url(Pherkad\ LtFA-bg3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: Cambria;
+    font-size: 7vh;
+    text-shadow: 3px 3px 3px rgb(55, 1, 94);
+}
+/* h1{
+    margin-top: 12vh;
+    font-size: 40px;
+} */
+h2 {
+    padding: 4vh;
+    margin: 14vh 0 5vh 0;
+    background-image: url(Pherkad\ LtFA-bg3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 55vw;
+    border-radius: 10px;
+    font-size: 4vh;
+    border:2px solid indigo;
+}
+header h3 {
+    margin:0 0 6vh 0;
+    padding: 2vh;
+}
+em{
+    font-weight: bold;  
+    font-size: 20px; 
+}
+h3 {
+    margin: 2vh 0;
+    padding:3vh;
+}
+h4{
+    margin: 5vh 0 3vh 0;
+    
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 12vh;
+    min-height: 88vh;
+}
+#img-flex-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    flex-wrap: wrap;
+}
+img {
+    flex-basis: 35%;
+    max-width: 45vw;
+    max-height: 90vh;
+    border-radius: 8%;
+    /* border-radius: 10px; */
+    padding: 2vh;
+    /* margin-top: 5vh;  */
+}
+p{
+    flex-basis: 45%;
+    font-family:sans-serif;
+    text-transform: none;
+    line-height: 1.5;
+    padding: 3vh;
+    text-align: center;
+}
+@media screen and (max-width: 900px) {
+    img, p{
+        flex-basis: 90%; 
+        max-width: 90vw;
+    }
+}
+#last-p {
+    flex-basis: 75%;
+    background-color: rgb(30, 2, 49);
+    border: 2px solid indigo;
+    margin-top: 5vh;
+    border-radius: 10px;
+}
+.flex-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:flex-start;
+    background-color: rgb(30, 2, 49);
+    border: 2px solid indigo;
+    width:92vw;
+    border-radius: 10px;
+}
+.track-list{
+    margin: 2vw 0;
+    padding: 2vw;
+}
+i {
+    font-size: 10px;
+}
+ol{
+    
+    line-height: 1.5;
+    text-align: left;
+}
+li{
+    margin-top:3vh;
+}
+#tour-p{
+    margin-top: 20vh;
+}
+form {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-elems {
+    flex-basis: 45%;
+}
+textarea {
+    height: 15vh;
+}
+input, textarea{
+    width: 25vw;
+    background-color: rgb(30, 2, 49);
+    border: 2px solid indigo;
+    color:rgb(155, 134, 170);
+    padding: 1vh;
+    font-size: 20px;
+}
+button {
+    padding: 1vh;
+    margin: 6vh;
+    flex-basis: 15%;
+    width: 15vw;
+    border-radius: 10px;
+    background-color: rgb(30, 2, 49);
+    border: 2px solid indigo;
+    color:rgb(155, 134, 170);
+}
+ button:hover{
+    
+    transform: scale(1.25);
+ }
+ a{
+    text-decoration: none;
+    color:rgb(155, 134, 170);
+
+ }
+footer {
+    text-align: right;
+    margin-top:5vh;
+    padding: 2vh;
+}
