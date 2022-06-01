@@ -5,7 +5,6 @@
     font-family: cursive;
 }
 body {
-    
     background-color: black;
     color: grey;
     text-align: center;
@@ -29,20 +28,18 @@ nav{
 }
 nav a{
     text-decoration: none;
-    margin: 0 .5vw;
-    padding: 3vh;
+    margin: .5vh .5vw;
+    padding: 3vh 2vh;
     color:rgb(155, 134, 170);
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     text-shadow: 3px 3px 2px rgb(99, 37, 13);
-
 }
 #pherkad {
-    /* margin-top:0;
-    margin-right: 20vw;
-    margin-left: 10vw; */
-    padding: .25vh;
-    margin: 2vh 20vw 2vh 10vw ;
-    font-size: 4.75vh;
+    position: absolute;
+    top: 1.5rem;
+    left: 2vw;
+    font-size: 5.5vh;
+    padding: 0;
 }
 main {
     display: flex;
@@ -55,12 +52,17 @@ main {
     flex-direction: column;
     align-items: center;
 }
+#pherkyPhil {
+    width: 18vh;
+    height: auto;
+    position: relative;
+    top: 4.3rem;
+    right: 7rem;
+    z-index: 1;
+}
 h1 {
-    /* flex-basis: 65%;
-    justify-self: center; */
     padding: 3vh 5vh;
-    /* margin: 3vh; */
-    margin-top: 6vh;
+    margin: 4vh;
     width: 65vw;
     height: fit-content;
     border: 1px solid white;
@@ -97,8 +99,7 @@ h3 {
     padding:3vh;
 }
 h4{
-    margin: 5vh 0 3vh 0;
-    
+    margin: 5vh 0 3vh 0;  
 }
 section {
     display: flex;
@@ -120,9 +121,7 @@ img {
     max-width: 45vw;
     max-height: 90vh;
     border-radius: 8%;
-    /* border-radius: 10px; */
     padding: 2vh;
-    /* margin-top: 5vh;  */
 }
 p{
     flex-basis: 45%;
@@ -132,7 +131,6 @@ p{
     padding: 3vh;
     text-align: center;
 }
-
 #last-p {
     flex-basis: 75%;
     background-color: rgb(30, 2, 49);
@@ -164,10 +162,8 @@ ol{
     line-height: 1.5;
     text-align:center;
     padding-left: 2vw;
-
 }
 li{
-    /* width: ; */
     margin-top:3vh;
     margin-left: 5vh;
     text-align: center;
@@ -178,7 +174,6 @@ li{
 }
 form {
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -213,7 +208,6 @@ button {
  a{
     text-decoration: none;
     color:rgb(155, 134, 170);
-
  }
 footer {
     text-align: center;
@@ -232,5 +226,9 @@ footer {
     }
     input, textarea {
         width: 75vw;
+    }
+    #pherkad {
+        font-size: 4vh;
+        top: 2rem;
     }
 }
