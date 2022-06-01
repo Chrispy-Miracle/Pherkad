@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="/Pherky phil new.png" />
     <title>Pherkad</title>
 </head>
 <body>
@@ -66,8 +67,8 @@
                         <li>Euphoric Passenger <br><i>(feat. Romeo Alonzo on sax)</i></li> 
                     </ol>            
                     <button>Buy Digital Album Now<br>$10</button>
-                </div>
-                <div class="track-list">
+                <!-- </div>
+                <div class="track-list"> -->
                     <h3>Suspended in Space (2016)</h3>
                     <ol>
                         <li>Open Season</li>
@@ -105,54 +106,70 @@
         </section>
         <section id="tour">
             <h2>Tour Dates & Upcoming Shows</h2>
-            <p id="tour-p"><em>Pherkad </em> does not have any scheduled dates at this time.<br>
-                Please check again soon.
+            <p id="tour-p">
+                <!-- <em>Pherkad </em> does not have any scheduled dates at this time.<br>
+                Please check again soon. -->
+                3/26/2022 - The Lobo Theater, Albuquerque, NM (opening for The Deal)<br>
+                3/27/2022 - Marble Brewery, Albuquerque, NM (Daytime Festival)<br>
+                7/15/2022 - Lauderhaus Brewery, Farmington, NM (opening for Magic Beans)<br>
+                7/17/2022 - Canteen Brewhouse, Albuquerque, NM<br>
+                8/25/2022 - Marble Brewery, Albuquerque, NM<br>
+                8/26/2022 - The Mineshaft Tavern, Madrid, NM<br>
+                8/27/2022 - Cloudcroft Brewery, Cloudcroft, NM<br>
+                8/28/2022 - Little Toad Creek Brewery, Silver City, NM<br>
+                10/29/2022 - Last Exit Live, Phoenix, AZ (Dan's Bee-Day Party, with Planck)<br>
             </p>
         </section>
         <section id="booking">
             <h2>Booking</h2>
             <h3>Pherkad would (probably) love to come play your venue or event. <br>
                 Please give us a bit of information first.</h3>
-            <form>
+            <form id="form" class="flex-cont" action="http://127.0.0.1:5500/index.html?"  method="GET">
                 <div class="form-elems">
                     <h4>Your Name:</h4>
-                    <input type="text" required>
+                    <input type="text" name="name" value="working" required>
                 </div>
                 <div class="form-elems">
                     <h4>Date/Time you would like to schedule:</h4>
-                    <input type="datetime-local" required>
+                    <input type="datetime-local" name="datetime" value="" required>
                 </div>
-                
-                          
                 <div class="form-elems">
                     <h4>Your E-mail:</h4>
-                    <input type="email" required>
+                    <input type="email" name="email" value="working@blah.com" required>
                 </div> 
-                 
                 <div class="form-elems">
                     <h4>Venue Address:</h4>
-                    <input type="text" required>
+                    <input type="text" name="venue" value="working" required>
                 </div>
                 <div class="form-elems">
                     <h4>Your Phone Number:</h4>
-                    <input type="tel" required>                    
+                    <input type="tel" name="phone" value="working" required>                    
                 </div> 
                 <div class="form-elems">
                     <h4>Other Info/Type of Event/Venue:</h4>
-                    <textarea></textarea><br>
+                    <textarea name="other" value="working"></textarea><br>
                 </div> 
                 
                 <button  type="submit">Submit</button>
             </form>
             
         </section>
-        <footer class="flex-cont">
-            <a href="https://www.facebook.com/PherkadMusic"><div>Follow us!</div></a>
-            <a href="mailto:pherkadmusic@gmail.com"><div>Contact us!</div></a>
-            <a href="#booking"><div href=>Book a Show!</div></a>
-        </footer>
     </main>
-    <footer>Created by Chris Patchett 2021, All Rights Reserved</footer>
+    <footer>
+        <div class="flex-cont">
+            <div>
+                <a href="https://www.facebook.com/PherkadMusic">Follow us!</a><br>
+            </div>
+            <div>
+                <a href="mailto:pherkadmusic@gmail.com" padding="0 10vw">Contact us!</a><br>
+            </div>
+            <div>
+                <a href="#booking">Book a Show!</a><br>
+            </div>
+            
+        </div>
+        <p>Created by Chris Patchett 2021, All Rights Reserved</p>
+    </footer>
 
 
 </body>
