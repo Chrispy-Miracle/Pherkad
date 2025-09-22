@@ -125,10 +125,10 @@
             <h2>Booking</h2>
             <h3>Pherkad would (probably) love to come play your venue or event. <br>
                 Please give us a bit of information first.</h3>
-            <form id="form" class="flex-cont" action="http://127.0.0.1:5500/index.html?"  method="GET">
+            <form id="form" class="flex-cont" action="mailto:chrispymiracle@gmail.com"  method="POST">
                 <div class="form-elems">
                     <h4>Your Name:</h4>
-                    <input type="text" name="name" value="working" required>
+                    <input type="text" name="name" placeholder="Your name here" required>
                 </div>
                 <div class="form-elems">
                     <h4>Date/Time you would like to schedule:</h4>
@@ -136,19 +136,19 @@
                 </div>
                 <div class="form-elems">
                     <h4>Your E-mail:</h4>
-                    <input type="email" name="email" value="working@blah.com" required>
+                    <input type="email" name="email" placeholder="yourEmail@example.com" required>
                 </div> 
                 <div class="form-elems">
-                    <h4>Venue Address:</h4>
-                    <input type="text" name="venue" value="working" required>
+                    <h4>Venue Name and Location:</h4>
+                    <input type="text" name="venue" placeholder="Where do you want Pherkad to play?" required>
                 </div>
                 <div class="form-elems">
                     <h4>Your Phone Number:</h4>
-                    <input type="tel" name="phone" value="working" required>                    
+                    <input type="tel" name="phone" placeholder="xxx-xxx-xxxx" required>                    
                 </div> 
                 <div class="form-elems">
                     <h4>Other Info/Type of Event/Venue:</h4>
-                    <textarea name="other" value="working"></textarea><br>
+                    <textarea name="otherinfo" placeholder="What else should we probably know about this gig?"></textarea><br>
                 </div> 
                 
                 <button  type="submit">Submit</button>
