@@ -5,6 +5,9 @@
     font-family: cursive;
 }
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: black;
     color: grey;
     text-align: center;
@@ -147,6 +150,7 @@ p{
     border: 2px solid indigo;
     width:92vw;
     border-radius: 10px;
+    padding: 5px;
 }
 .track-list{
     margin: 2vw 0;
@@ -228,6 +232,9 @@ button {
     color:rgb(155, 134, 170);
  }
 footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     margin-top:5vh;
     padding: 2vh;
@@ -249,10 +256,11 @@ footer {
   position: absolute;
   top: 45%;
   left: 50%;
+  max-width: 90vw;;
   transform: translate(-50%, -50%); /* Center the popup */
   background: rgb(34, 30, 30);
   padding: 10px;
-  margin: 20px;
+  margin-top: 20px;;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   text-align: center;
@@ -261,13 +269,13 @@ footer {
     margin: 10px;
 }
 .popup-image {
-    height: 55vh;
+    max-height: 55vh;
+    max-width: 75vw;
 }
 
 .close-button {
   margin-top: 15px;
   width: 20%;
-  padding: 8px 15px;
   background-color: indigo;
   color: rgb(208, 181, 228);
   border: none;
@@ -288,7 +296,18 @@ footer {
         width: 75vw;
     }
     #pherkad {
+        margin-left: 25vw;
         font-size: 4vh;
         top: 2rem;
+        padding: 5px;
+    }
+    nav {
+        align-items: center;
+        justify-content: center;
+        height: 12vh;
+    }
+    nav a {
+        padding-top: 0;
+        margin-top: 1vh;
     }
 }
