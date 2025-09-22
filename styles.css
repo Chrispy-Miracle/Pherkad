@@ -16,6 +16,8 @@ body {
     font-weight: bold;
     letter-spacing: 3px;
     text-shadow: 2px 2px 2px black;
+    height: 100%;
+    width: 100%;
 }
 nav{
     display: flex;
@@ -89,17 +91,17 @@ h2 {
     font-size: 4vh;
     border:2px solid indigo;
 }
-header h3 {
+/* header h3 {
     margin:0 0 6vh 0;
     padding: 2vh;
-}
+} */
 em{
     font-weight: bold;  
     font-size: 20px; 
 }
 h3 {
-    margin: 2vh 0;
-    padding:3vh;
+    margin-top: 10px 0;
+    padding-top: 15px;
 }
 h4{
     margin: 5vh 0 3vh 0;  
@@ -131,7 +133,7 @@ p{
     font-family:sans-serif;
     text-transform: none;
     line-height: 1.5;
-    padding: 3vh;
+    padding: 10px;
     text-align: center;
 }
 #last-p {
@@ -178,9 +180,9 @@ li{
 #tour-p{
     display: flex;
     flex-direction: column;
-    margin-top: 3vh;
-    line-height: 2;
+    /* line-height: 2; */
     font-size: 20px;
+    /* height: fit-content; */
 }
 .show-poster {
     max-height: 40vh;
@@ -227,10 +229,6 @@ button {
  button:hover{
     transform: scale(1.25);
  }
- a{
-    text-decoration: none;
-    color:rgb(155, 134, 170);
- }
 footer {
     display: flex;
     flex-direction: column;
@@ -239,6 +237,9 @@ footer {
     margin-top:5vh;
     padding: 2vh;
     width: 90%;
+}
+footer a {
+    color:rgb(155, 134, 170);
 }
 
 .popup-overlay {
@@ -296,9 +297,9 @@ footer {
         width: 75vw;
     }
     #pherkad {
-        margin-left: 25vw;
-        font-size: 4vh;
-        top: 2rem;
+        font-size: 36px;
+        top: 1.75rem;
+        left: 40vw;
         padding: 5px;
     }
     nav {
@@ -309,5 +310,16 @@ footer {
     nav a {
         padding-top: 0;
         margin-top: 1vh;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #pherkad {
+        left: 30vw;
+        font-size: 24px;
+        padding: 10px;
+    }
+    nav a {
+        font-size: 12px;
     }
 }
