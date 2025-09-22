@@ -181,6 +181,9 @@ form {
 .form-elems {
     flex-basis: 45%;
 }
+.hidden {
+    display: none;
+}
 textarea {
     height: 15vh;
 }
