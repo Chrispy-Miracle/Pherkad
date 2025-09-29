@@ -104,7 +104,7 @@ h3 {
     padding-top: 15px;
 }
 h4{
-    margin: 5vh 0 3vh 0;  
+    margin: 10px 0 5px 0;  
 }
 section {
     display: flex;
@@ -253,25 +253,37 @@ footer a {
   z-index: 1000; /* Ensure it's on top */
 }
 
-.popup-content {
+.construction {
+    background-color: indigo;
+    border-radius: 10px;
+    padding: 5px 5vw;;
+    margin: 10px;
+}
+
+.popup-container {
   position: absolute;
   top: 45%;
   left: 50%;
-  max-width: 90vw;;
+  max-width: 90vw;
+  max-height: 100vh;
   transform: translate(-50%, -50%); /* Center the popup */
   background: rgb(34, 30, 30);
-  padding: 10px;
-  margin-top: 20px;;
+  padding: 10px 20px;;
+  margin-top: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   text-align: center;
 }
-.popup-content h2 {
-    margin: 10px;
+.popup-container h2 {
+    margin: 5px;
+    padding: 10px;
+    font-size: larger;
 }
 .popup-image {
-    max-height: 55vh;
-    max-width: 75vw;
+    max-height: 45vh;
+    padding: 0;
+    border: 3px solid indigo;
+    border-radius: 5px;
 }
 
 .close-button {
