@@ -1,0 +1,8 @@
+# Ignore sound files
+*.mp3
+*.wav
+*.zip
+soundFiles/
+
+# Ignore environment files
+.env

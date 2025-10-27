@@ -240,7 +240,7 @@ input, textarea{
     padding: 1vh;
     font-size: 20px;
 }
-button {
+button, .button {
     padding: 1vh;
     margin: 6vh;
     flex-basis: 15%;
@@ -250,7 +250,7 @@ button {
     border: 2px solid indigo;
     color:rgb(155, 134, 170);
 }
- button:hover{
+ button:hover, .button:hover {
     transform: scale(1.25);
  }
 footer {
