@@ -190,7 +190,7 @@ li{
     border: 5px solid indigo;
 }
 .show-poster:hover {
-    transform: scale(2);
+    transform: scale(1.1);
     
 }
 form {
@@ -238,7 +238,7 @@ footer {
     padding: 2vh;
     width: 90%;
 }
-footer a {
+.color-link {
     color:rgb(155, 134, 170);
 }
 
