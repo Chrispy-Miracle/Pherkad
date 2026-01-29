@@ -214,7 +214,7 @@ li{
     border: 5px solid indigo;
 }
 .show-poster:hover {
-    transform: scale(2);
+    transform: scale(1.1);
     
 }
 form {
@@ -262,7 +262,7 @@ footer {
     padding: 2vh;
     width: 90%;
 }
-footer a {
+.color-link {
     color:rgb(155, 134, 170);
 }
 
@@ -320,23 +320,7 @@ footer a {
   cursor: pointer;
 }
 
-/* PayPal Styles*/
-.pp-G599JQZ8JX23U{
-    text-align:center;
-    border:none;
-    border-radius:0.25rem;
-    min-width:11.625rem;
-    padding:0 2rem;
-    margin: 10px;
-    height:2.625rem;
-    font-weight:bold;
-    background-color:#FFD140;
-    color:#000000;
-    font-family:"Helvetica Neue",Arial,sans-serif;
-    font-size:1rem;
-    line-height:1.25rem;
-    cursor:pointer;
-}
+
 
 @media screen and (max-width: 900px) {
     img, p{

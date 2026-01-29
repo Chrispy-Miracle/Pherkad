@@ -10,6 +10,7 @@
         <title>Pherkad</title>
     </head>
     <body>
+        <!-- Navigation bar -->
         <nav>
             <a href="#home" id="pherkad">Pherkad</a>
             <a href="#music">Music</a>
@@ -17,24 +18,32 @@
             <a href="#tour">Tour</a>
             <a href="#booking">Booking</a>
         </nav>
+        <!-- Main page start -->
         <main>
             <section >
                 <header id="home">
+                    <!-- Construction banner -->
                     <h4 class="construction">This site is currently under construction.<br>Please don't mind the mess!</h4>
+                    <!-- Pherky Phil logo and Banner -->
                     <img id="pherkyPhil" src="Pherky phil new.png" alt="A picture of Pherky Phil, our bands flying saucer logo by Mr. Melty">
                     <h1>Pherkad</h1>
                     <h3>Albuquerque, New Mexico's Premier Jam Band</h3>
                 </header> 
+                <!-- Pop Up -->
                 <div class="popup-overlay" id="myPopupOverlay">
                     <div class="popup-container">
                         <h2>Upcoming Show!</h2>
-                        <p>Friday, November 21st <br> Pho Cao, Scottsdale, AZ<br>
-                        Plancksgiving 2025</p>
-                        <abbr title="Pherkad plays Plancksgiving @ Pho Cao, Scottsdale, AZ 11-21-25"><img class="popup-image" src="Plancksgiving2025.png" alt="Poster for Plancksgiving @ Pho Cao, Scottsdale, AZ 11-21-25"></abbr>
+                        <h3>Pherkad Trio (Jason, Zac, Chrispy)</h3>
+                        <p>    <br>Thursday, February 19th 2026, 6-9pm
+                            <br> Canteen Brewhouse, Albuquerque, NM
+                            <br>Click to see <a class="color-link" href="https://www.facebook.com/share/14UHBp2rbbi/">Event Page</a>
+                        </p>
+                        <abbr title="Pherkad plays Canteen Brewhouse 2-19-26"><img class="popup-image" src="Pherkad Trio Canteen.jpg" alt="Poster for Pherkad Trio @ Canteen 2-19-26"></abbr>
+                        
                         <button class="close-button" onclick="closePopup()">Close</button>
                     </div>
                 </div>
-         
+                <!-- Bio Section -->
                 <div id="img-flex-cont">
                     <abbr title="Pherkad at Animas City Theater, Durango, CO"><img src="Pherkad-at Animas City Theater.jpg" alt="Pherkad at Animas City Theater, Durango, CO"></abbr>
                     <p><em>Pherkad</em> is Albuquerque, New Mexico's premier up and coming, genre bending, groove crushing jam band. <br><br>
@@ -58,18 +67,22 @@
                     
                 </div>
             </section>
-            
+            <!-- Music Section -->
             <section id="music">
                 <h2 >Music & Discography</h2>
+                <!-- follow on bandcamp button -->
+                <div class="flex-col">
+                    <iframe scrolling="no" style="margin-left: 50%; border: 0;width: 100%;height: 33px;" src="https://bandcamp.com/band_follow_button_classic/933754338"></iframe>
+                </div>
+                 <!-- end of bandcamp button -->
+                <!-- Album- Learning to Fly Again -->
                 <div class="flex-cont flex-col">
                     <div class="flex-col">
-                        <h3>Learning to Fly Again (2018)</h3>
+                        <a class="color-link" href="https://pherkadmusic.bandcamp.com/album/learning-to-fly-again"><h3>Learning to Fly Again (2018)</h3></a>
                         <abbr title="Pherkad- Learning to Fly Again Album Cover"><img src="LtFA Album cover.jpg" alt="Pherkad- Learning to Fly Again Album Cover"></abbr>
-                    </div> 
-                    
+                    </div>
                     <div class="track-list">
                         <ol>
-                            
                             <li>Blue Diamond</li>
                             <li>My Friend <br><i>(feat. Ben Wright on guitar)</i></li>
                             <li>Plans go Awry</li> 
@@ -81,25 +94,13 @@
                             <li>Change Yourself <br><i>(feat. Ben Wright on guitar)</i></li> 
                             <li>Euphoric Passenger <br><i>(feat. Romeo Alonzo on sax)</i></li> 
                         </ol>            
-                    </div>                       
-                    <!-- PayPay "Learning to Fly Again" full album button -->
-                    <form action="https://www.paypal.com/ncp/payment/G599JQZ8JX23U" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
-                        <input class="pp-G599JQZ8JX23U" type="submit" value='Buy Full Album Now' />
-                        <div class="flex-row">
-                            <img src=https://www.paypalobjects.com/images/Debit_Credit_APM.svg alt="cards" />
-                            <div style="font-size: 0.75rem;"> 
-                                Powered by <img class="scale-down" src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" />
-                            </div>                          
-                        </div>
-                    </form> 
-                    <!-- End PayPal button -->
-                    <!-- follow on bandcamp button -->
-                    <iframe scrolling="no" style="border: 0;width: 100%;height: 33px;" src="https://bandcamp.com/band_follow_button_classic/933754338"></iframe>
-                    <!-- end of bandcamp button -->
+                    </div>    
+
                 </div>
+                <!-- Album- Suspended in Space  -->
                 <div class="flex-cont flex-col">
                     <div class="flex-col">
-                        <h3>Suspended in Space (2016)</h3> 
+                        <a class="color-link" href="https://pherkadmusic.bandcamp.com/album/suspended-in-space"><h3>Suspended in Space (2016)</h3></a>
                         <abbr title="Pherkad- Suspended in Space Album Cover"><img id="susinspace" src="Pherkad-Suspended in Space.jpg" alt="Pherkad- Suspended in Space Album Cover"></abbr>
                     </div>
                     <div class="track-list">    
@@ -112,25 +113,20 @@
                             <li>Yin Yang</li>
                         </ol>
                     </div>
-                    <!-- PayPay "Suspended In Space" full album button -->
-                    <form action="https://www.paypal.com/ncp/payment/HJSPHLE5PGABW" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
-                        <input class="pp-G599JQZ8JX23U" type="submit" value="Buy Full Album Now" />
-                        <div class="flex-row">
-                            <img src=https://www.paypalobjects.com/images/Debit_Credit_APM.svg alt="cards" />
-                            <div style="font-size: 0.75rem;"> 
-                                Powered by <img class="scale-down" src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" />
-                            </div>                          
-                        </div>
-                    </form>
-                    <!-- end of PayPal button -->
-                    <!-- follow on bandcamp button -->
-                     <iframe scrolling="no" style="border: 0;width: 100%;height: 33px;" src="https://bandcamp.com/band_follow_button_classic/933754338"></iframe>
-                    <!-- end of bandcamp button -->
+                    
+
+                </div>                    
+                <!-- follow on bandcamp button -->
+                <div class="flex-col">
+                    <iframe scrolling="no" style="margin-left: 50%; border: 0;width: 100%;height: 33px;" src="https://bandcamp.com/band_follow_button_classic/933754338"></iframe>
                 </div>
+                <!-- end of bandcamp button -->
             </section>
+            <!-- Archive.org link -->
             <div class="flex-cont flex-col">
-                <h3>Pherkad also has over 100 Live Recordings at <a href="https://www.archive.org/details/Pherkad"><h4>Archive.org/details/Pherkad</h4></a></h3>
+                <h3>Listen to over 100 Live Pherkad Shows at <a href="https://www.archive.org/details/Pherkad"><h4>Archive.org/details/Pherkad</h4></a></h3>
             </div> 
+            <!-- Gallery Section -->
             <section id="gallery">
                 <h2 >Gallery</h2>
                 <div class="flex-cont">
@@ -143,28 +139,47 @@
                         <abbr title="Black and white photo of Pherkad's interview with Alibi"><img src="Playing in the Band ....jpg" alt="Black and white photo of Pherkad's interview with Alibi"></abbr>
                         <abbr title="Photo Shoot for Alibi interview"><img src="Pherkad-Eric Williams Photography.jpg" alt="Photo Shoot for Alibi interview"></abbr>
                         <abbr title="Learning to Fly Again album art (long version)"><img src="Pherkad LtFA-long.png" width="150%" alt="Learning to Fly Again album art (long version)"></abbr>
-                        <!-- <video src="https://www.youtube.com/watch?v=n16-m3JDrLo"></video> -->
+                        <!-- Pherkad's "Wong Way" live (w/ Jav) at Marble Brewery<video src="https://www.youtube.com/watch?v=n16-m3JDrLo"></video> -->
                 </div>
             </section>
-
+            <!-- Upcoming Shows Section -->
             <section id="tour">
                 <h2>Upcoming Shows</h2>
-                <h3>Friday, November 21st, 2025 -</h3>
+                <!-- No shows placeholder message -->
+                <!-- <p>
+                    <em>Pherkad </em> does not have any scheduled dates at this time.<br>
+                    Please check again soon.
+                </p> -->
+                <!-- End of No shows placeholder message -->
+                
+                <!-- Example Show Entry -->
+                <!-- <h3>Friday, November 21st, 2025 -</h3>
                 <p id="tour-p">
-                    <!-- <em>Pherkad </em> does not have any scheduled dates at this time.<br>
-                    Please check again soon. -->
                      <br> Plancksgiving @ Pho Cao, Scottsdale, AZ (Opening for Planck)
-                </p>                                
-                <abbr title="Pherkad plays Plancksgiving @ Pho Cao, Scottsdale, AZ 11-21-25"><img class="show-poster" src="Plancksgiving2025.png" alt="Poster for Plancksgiving @ Pho Cao, Scottsdale, AZ 11-21-25"></abbr>                
+                </p> -->
+                <!-- Example Show Poster -->
+                <!-- <abbr title="Pherkad plays Plancksgiving @ Pho Cao, Scottsdale, AZ 11-21-25">
+                    <img class="show-poster" src="Plancksgiving2025.png" alt="Poster for Plancksgiving @ Pho Cao, Scottsdale, AZ 11-21-25">
+                </abbr>  -->
+                <!-- End of Example Show Entry -->  
+                 
+                <h3>Thursday, February 19th, 2026 -</h3>
+                <p id="tour-p">
+                     <br>Pherkad Trio (Jason, Zac, Chrispy) @ Canteen Brewhouse, Albuquerque, NM
+                </p>
+                <abbr title="Pherkad plays Canteen Brewhouse, Albuquerque, NM 2-19-26">
+                    <img class="show-poster" src="Pherkad Trio Canteen.jpg" alt="Poster for Canteen Brewhouse, Albuquerque, NM 2-19-26">
+                </abbr> 
             </section>
 
             <section id="booking">
                 <h2>Booking</h2>
 
-                <p>Download Pherkad's Electronic Press Kit <a href="2025-09 Pherkad EPK (dark).pdf" download="Pherkad EPK 2025">here</a></p>
+                <p>Download Pherkad's Electronic Press Kit <a href="2026 Pherkad EPK (dark).pdf" download="Pherkad EPK 2026">here</a></p>
 
                 <h4>Pherkad would  love to come play your venue or event (probably). <br>
                     Please give us a bit of information first.</h4>
+                <!-- Booking Form -->
                 <form id="form" name="booking-request" class="flex-cont" netlify netlify-honeypot="bot-field" method="POST">
                     <div class="hidden">
                         <label>
@@ -197,20 +212,22 @@
                     </div> 
                     <button  type="submit">Submit</button>
                 </form>
+                <!-- End of Booking Form -->
             </section>
         </main>
+        <!-- Footer -->
         <footer>
             <h3>Thanks for visiting!</h3>
             <h2>Pherkad Loves You!</h2>
             <div class="flex-cont">
                 <div>
-                    <a href="https://www.facebook.com/PherkadMusic">Follow us!</a><br>
+                    <a class="color-link" href="https://www.facebook.com/PherkadMusic">Follow us!</a><br>
                 </div>
                 <!-- <div>
                     <a href="mailto:pherkadmusic@gmail.com" padding="0 10vw">Contact us!</a><br>
                 </div> -->
                 <div>
-                    <a href="#booking">Book a Show!</a><br>
+                    <a class="color-link" href="#booking">Book a Show!</a><br>
                 </div>
             </div>
             <p>Created by Chris Patchett 2021, All Rights Reserved</p>
