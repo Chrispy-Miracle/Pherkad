@@ -69,6 +69,7 @@ h1 {
     padding: 3vh 5vh;
     margin: 4vh;
     width: 65vw;
+    min-width: fit-content;
     height: fit-content;
     border: 1px solid white;
     border-radius: 10px;
@@ -95,7 +96,7 @@ h2 {
     margin:0 0 6vh 0;
     padding: 2vh;
 } */
-em{
+em {
     font-weight: bold;  
     font-size: 20px; 
 }
