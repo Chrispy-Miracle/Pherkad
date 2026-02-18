@@ -24,6 +24,7 @@ nav{
     flex-direction: row;
     justify-content: right;
     height: 11vh;
+    min-height: fit-content;
     width: 100vw;
     position: fixed;
     border: 2px solid indigo;
@@ -33,18 +34,20 @@ nav{
 }
 nav a{
     text-decoration: none;
+    height: fit-content;    
     margin: .5vh .5vw;
     padding: 3vh 2vh;
     color:rgb(155, 134, 170);
-    font-size: 2.5vw;
+    font-size: 1.75em;
     text-shadow: 3px 3px 2px rgb(99, 37, 13);
 }
 #pherkad {
     position: absolute;
     top: 2vh;
     left: 2vw;
-    font-size: 5.5vh;
+    font-size: 3em;
     padding: 0;
+    font-family: 'Cambria', 'Garamond', Georgia, serif;;
 }
 main {
     display: flex;
@@ -324,30 +327,30 @@ footer {
         width: 75vw;
     }
     #pherkad {
-        font-size: 36px;
-        top: 1.75rem;
-        left: 40vw;
-        padding: 5px;
+        font-size: 1.75em;
+        margin: 5px;
+        top: 5px;
     }
     nav {
         align-items: center;
-        justify-content: center;
-        height: 12vh;
+        justify-content: right;
+        height: fit-content;
     }
-    nav a {
-        padding-top: 0;
-        margin-top: 1vh;
-    }
+    /* nav a {
+        margin-left: 10vw;
+    } */
 }
 
 @media screen and (max-width: 700px) {
     #pherkad {
-        left: 30vw;
-        font-size: 24px;
-        padding: 10px;
+        font-size: 1.5em;
+    }
+    nav {
+        align-items: flex-end;
     }
     nav a {
-        font-size: 12px;
+        margin-top: 10px;
+        font-size: .9em;
     }
     h2 {
         font-size: 2em;
