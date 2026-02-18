@@ -348,10 +348,16 @@ footer {
     nav a {
         font-size: 12px;
     }
+    h2 {
+        font-size: 2em;
+    }
     h3 {
         font-size: 1em;
     }
     ol {
         width: 90%;
+    }
+    p {
+        font-size: .8em;
     }
 }
