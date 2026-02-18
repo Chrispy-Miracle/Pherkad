@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    font-family: cursive;
+    font-family: 'Trebuchet MS', 'Verdana', sans-serif;
 }
 body {
     display: flex;
@@ -75,7 +75,7 @@ h1 {
     background-image: url(Pherkad\ LtFA-bg3.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    font-family: Cambria;
+    font-family: 'Cambria', 'Garamond', Georgia, serif;
     font-size: 10vw;
     text-shadow: 3px 3px 3px rgb(55, 1, 94);
 }
@@ -100,11 +100,12 @@ em{
     font-size: 20px; 
 }
 h3 {
-    margin-top: 10px 0;
+    margin: 10px;
     padding-top: 15px;
+    max-width: 90%;
 }
 h4{
-    margin: 10px 0 5px 0;  
+    margin: 10px;  
 }
 section {
     display: flex;
@@ -130,7 +131,7 @@ img {
 }
 p{
     flex-basis: 45%;
-    font-family:sans-serif;
+    font-family: 'Cambria', 'Garamond', Georgia, serif;
     text-transform: none;
     line-height: 1.5;
     padding: 10px;
@@ -153,6 +154,17 @@ p{
     width:92vw;
     border-radius: 10px;
     padding: 5px;
+    margin: 5px;
+}
+.center-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.album-cover-img {
+    height: auto;
+    width: 45vw;
 }
 .track-list{
     margin: 2vw 0;
@@ -168,6 +180,7 @@ ol{
     line-height: 1.5;
     text-align:center;
     padding-left: 2vw;
+    width: 40vw;
 }
 li{
     margin-top:3vh;
@@ -277,10 +290,10 @@ footer {
 .popup-container h2 {
     margin: 5px;
     padding: 10px;
-    font-size: larger;
 }
 .popup-image {
     max-height: 45vh;
+    max-width: 90%;
     padding: 0;
     border: 3px solid indigo;
     border-radius: 5px;
@@ -333,5 +346,11 @@ footer {
     }
     nav a {
         font-size: 12px;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    ol {
+        width: 90%;
     }
 }
