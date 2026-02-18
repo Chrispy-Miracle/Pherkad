@@ -278,7 +278,7 @@ footer {
   top: 45%;
   left: 50%;
   max-width: 90vw;
-  max-height: 100vh;
+  max-height: 90vh;
   transform: translate(-50%, -50%); /* Center the popup */
   background: rgb(34, 30, 30);
   padding: 10px 20px;;
@@ -302,6 +302,7 @@ footer {
 .close-button {
   margin-top: 15px;
   width: 20%;
+  min-width: fit-content;
   background-color: indigo;
   color: rgb(208, 181, 228);
   border: none;
