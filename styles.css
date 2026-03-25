@@ -4,6 +4,10 @@
     padding:0;
     font-family: 'Trebuchet MS', 'Verdana', sans-serif;
 }
+/* html {
+    height: 100vh;
+    width: 100vw;
+} */
 body {
     display: flex;
     flex-direction: column;
@@ -16,17 +20,17 @@ body {
     font-weight: bold;
     letter-spacing: 3px;
     text-shadow: 2px 2px 2px black;
-    height: 100%;
-    width: 100%;
+    height: 98%;
+    width: 98%;
 }
 nav{
     align-self: center;
     display: flex;
     flex-direction: row;
     justify-content: right;
-    height: 11vh;
+    /* height: 11vh; */
     min-height: fit-content;
-    min-width: 100%;
+    width: 100%;
     position: fixed;
     border: 2px solid indigo;
     background-image: url(Pherkad\ LtFA-bg3.jpg);
@@ -35,17 +39,17 @@ nav{
 }
 nav a{
     text-decoration: none;
-    height: fit-content;    
-    margin: .5vh .5vw;
-    padding: 3vh 2vh;
+    height: fit-content;  
+    margin: 10px;
+    padding: 50px 0 5px 5px;
     color:rgb(155, 134, 170);
     font-size: 1.75em;
     text-shadow: 3px 3px 2px rgb(99, 37, 13);
 }
 #pherkad {
     position: absolute;
-    top: 2vh;
-    left: 2vw;
+    top: 10px;
+    left: 30px;
     font-size: 3em;
     padding: 0;
     font-family: 'Cambria', 'Garamond', Georgia, serif;;
@@ -119,7 +123,7 @@ section {
     align-items: center;
     justify-content: center;
     margin-top: 12vh;
-    min-height: 88vh;
+    min-height: fit-content;
     min-width: 100%;
 }
 #img-flex-cont {
@@ -163,12 +167,12 @@ p{
     padding: 5px;
     margin: 5px;
 }
-/* .flex-col {
+.flex-col {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-} */
+}
 .album-cover-img {
     height: auto;
     width: 45vw;
@@ -330,21 +334,28 @@ footer {
         width: 75vw;
     }
     #pherkad {
-        font-size: 1.75em;
+        font-size: 2em;
         margin: 5px;
-        top: 5px;
+        top: 15px;
+        left: 30px;
     }
     nav {
+        top: 0;
         align-items: center;
         justify-content: right;
         height: fit-content;
+        width: 100vw;
     }
-    /* nav a {
-        margin-left: 10vw;
-    } */
+    nav a {
+        font-size: 1.4em;
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 700px) {
+    input, textarea {
+        font-size: 1em;
+    }
     #pherkad {
         font-size: 1.5em;
     }
