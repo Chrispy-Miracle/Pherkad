@@ -163,12 +163,12 @@ p{
     padding: 5px;
     margin: 5px;
 }
-.center-flex {
+/* .flex-col {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+} */
 .album-cover-img {
     height: auto;
     width: 45vw;
