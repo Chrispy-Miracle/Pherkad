@@ -4,10 +4,6 @@
     padding:0;
     font-family: 'Trebuchet MS', 'Verdana', sans-serif;
 }
-/* html {
-    height: 100vh;
-    width: 100vw;
-} */
 body {
     display: flex;
     flex-direction: column;
@@ -20,22 +16,32 @@ body {
     font-weight: bold;
     letter-spacing: 3px;
     text-shadow: 2px 2px 2px black;
-    height: 98%;
-    width: 98%;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 nav{
+    box-sizing: border-box;
     align-self: center;
+    justify-self: center;
     display: flex;
     flex-direction: row;
     justify-content: right;
-    /* height: 11vh; */
+    height: 11vh;
     min-height: fit-content;
     width: 100%;
     position: fixed;
+    left: 0; 
+    right: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
     border: 2px solid indigo;
     background-image: url(Pherkad\ LtFA-bg3.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    z-index: 9;
 }
 nav a{
     text-decoration: none;
@@ -59,7 +65,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    /* width: 100%; */
 }
 #home {
     display: flex;
@@ -72,7 +78,7 @@ main {
     position: relative;
     top: 4.3rem;
     right: 7rem;
-    z-index: 1;
+    z-index: 10
 }
 h1 {
     padding: 3vh 5vh;
@@ -124,7 +130,7 @@ section {
     justify-content: center;
     margin-top: 12vh;
     min-height: fit-content;
-    min-width: 100%;
+    /* width: 100vw */
 }
 #img-flex-cont {
     display: flex;
@@ -165,7 +171,7 @@ p{
     width:92vw;
     border-radius: 10px;
     padding: 5px;
-    margin: 5px;
+    /* margin: 10px; */
 }
 .flex-col {
     display: flex;
@@ -322,7 +328,7 @@ footer {
   cursor: pointer;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 940px) {
     img, p{
         flex-basis: 90%; 
         max-width: 90vw;
@@ -342,14 +348,15 @@ footer {
     }
     nav {
         top: 0;
-        align-items: center;
-        justify-content: right;
         height: fit-content;
-        width: 100vw;
+        align-items: center;
+        min-width: fit-content;
+        padding-right: 35px;
     }
     nav a {
         font-size: 1.4em;
-        margin: 0;
+        margin: 0 10px;
+
     }
 }
 
@@ -359,10 +366,9 @@ footer {
     }
     #pherkad {
         font-size: 1.5em;
+        top: 0;
     }
-    nav {
-        align-items: flex-end;
-    }
+  
     nav a {
         margin: 40px 0 5px 0;
         padding: 5px;
