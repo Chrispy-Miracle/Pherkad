@@ -207,10 +207,11 @@ li{
 .show-poster {
     max-height: 40vh;
     padding: 0;
+    margin-bottom:30px;
     border: 5px solid indigo;
 }
 .show-poster:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     
 }
 form {
