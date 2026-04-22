@@ -1,3 +1,3 @@
 const closePopup = () => {
-    document.getElementById("myPopupOverlay").style.display = "none";
+    document.getElementById("popupOverlay").style.display = "none";
 }

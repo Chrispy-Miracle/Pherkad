@@ -9,46 +9,50 @@
         <link rel="icon" type="image/png" href="/Pherky phil new.png" />
         <title>Pherkad</title>
     </head>
-    <body>
-        <!-- Navigation bar -->
-        <nav>
+    <body class="flex-col">
+        <!-- NAVIGATION BAR -->
+        <nav id="nav" class="flex-row">
             <a href="#home" id="pherkad">Pherkad</a>
             <a href="#music">Music</a>
             <a href="#gallery">Gallery</a>
             <a href="#tour">Tour</a>
             <a href="#booking">Booking</a>
         </nav>
-        <!-- Main page start -->
-        <main>
-            <section id="home">
+        <!-- MAIN PAGE START -->
+        <main class="flex-col">
+            <section class="flex-col" class="flex-col" id="home">
                 <header class="flex-col">
-                    <!-- Construction banner -->
-                    <!-- <h4 class="construction">This site is currently under construction.<br>Please don't mind the mess!</h4> -->
-                    <!-- Pherky Phil logo and Banner -->
+                    <!-- CONSTRUCTION BANNER -->
+                    <!-- <h4 id="construction">This site is currently under construction.<br>Please don't mind the mess!</h4> -->
+                    
+                    <!-- FLYING PHERKY PHIL  -->
                     <img id="pherkyPhil" src="Pherky phil new.png" alt="A picture of Pherky Phil, our bands flying saucer logo by Mr. Melty">
+                    
+                    <!-- BANNER -->
                     <h1>Pherkad</h1>
                     <h3>Albuquerque, New Mexico's Premier Jam Band</h3>
                 </header> 
-                <!-- Pop Up -->
+
+                <!-- POP UP -->
                 
-                <!-- <div class="popup-overlay" id="myPopupOverlay">
-                    <div class="popup-container">
+                <div class="popup-overlay" id="popupOverlay">
+                    <div class="popup-cont flex-col">
                         <h2>Upcoming Show!</h2>
                         <h3>Pherkad <br>(Opening for Photon)</h3>
                         <p>    <br>Saturday, May 30th 2026, 6-9pm
                             <br> Lauterhaus Brewery, Farmington, NM
-                            <br>Click to see <a class="color-link" href="https://www.facebook.com/share/14UHBp2rbbi/">Event Page</a>
+                            <br>Click to see <a class="color-link" href="https://www.facebook.com/events/1419696199912887">Event Page</a>
                         </p>
-                        <abbr title="Pherkad plays Lauterhaus Brewery 5-30-26"><img class="popup-image" src="Pherkad Trio Canteen.jpg" alt="Poster for Pherkad (opening for Photon) @ Lauterhaus Brewery 5-30-26"></abbr>
+                        <abbr title="Pherkad opens for Photon at Lauterhaus Brewery 5-30-26"><img class="popup-image" src="Photon Pherkad Lauterhaus.jpg" alt="Poster for Pherkad (opening for Photon) @ Lauterhaus Brewery 5-30-26"></abbr>
                         
-                        <button class="close-button" onclick="closePopup()">Close</button>
+                        <button onclick="closePopup()">Close</button>
                     </div>
-                </div>  -->
+                </div> 
                
-                <!-- End of Pop Up  -->
+                <!-- END OF POP UP  -->
                  
-                <!-- Bio Section -->
-                <div id="img-flex-cont">
+                <!-- BIOGRAPHY/ABOUT SECTION -->
+                <div id="img-flex-cont" class="flex-row">
                     <abbr title="Pherkad at Animas City Theater, Durango, CO"><img src="Pherkad-at Animas City Theater.jpg" alt="Pherkad at Animas City Theater, Durango, CO"></abbr>
                     <p><em>Pherkad</em> is Albuquerque, New Mexico's premier up and coming, genre bending, groove crushing jam band. <br><br>
                         Although <em>Pherkad</em> will occasionally touch a semi-obscure or loved cover tune, they spend a substantial amount more time crunching out groovy and thoughtful original tunes. <br><br> 
@@ -56,13 +60,20 @@
                         Simply put- these dudes get down.
                     </p>
                     <br><br>
-                    <p><em>“Pherkad</em> arrives from out of the dusky, dreamy realm of the jam band, combining nuanced traces of a multitude of other genres—including jazz, rock and folk—to make a rocanrol stew that is intriguing, tasteful and totally, incomparably experimental.<br><br>
-                        [… T]heir output is authentically psychedelic, not “psych,” a good thing when listening to the galaxy for proof of intelligent life.”  <br>
-                        <small><cite>-August March, The Alibi Weekly Newsletter,<br> V. 27 No. 12</cite></small></p><br>
+                    
+                        <abbr title="Pherkad at the Launchpad, Albuquerque, NM"><img src="Pherkad-at Launchpad.jpg" alt="Pherkad at the Launchpad, Albuquerque, NM"></abbr>
+                        <abbr title="Pherkad at Marble Brewery, Albuquerque, NM"><img src="Pherkad-LtFA Album (no name) (5).jpg" alt="Pherkad at Marble Brewery, Albuquerque, NM"></abbr>
+                    <div class="flex-cont flex-col">
+                        <p><em>“Pherkad</em> arrives from out of the dusky, dreamy realm of the jam band, combining nuanced traces of a multitude of other genres—including jazz, rock and folk—to make a rocanrol stew that is intriguing, tasteful and totally, incomparably experimental.<br><br>
+                            [… T]heir output is authentically psychedelic, not “psych,” a good thing when listening to the galaxy for proof of intelligent life.” <br>
+                            <small><cite>-August March, The Alibi Weekly Newsletter,<br> V. 27 No. 12</cite></small>
+                        </p>                        
+                    </div>
+
                     <abbr title="Pherkad at the Launchpad, Albuquerque, NM"><img src="Pherkad-at Launchpad.jpg" alt="Pherkad at the Launchpad, Albuquerque, NM"></abbr>
                     <abbr title="Pherkad at Marble Brewery, Albuquerque, NM"><img src="Pherkad-LtFA Album (no name) (5).jpg" alt="Pherkad at Marble Brewery, Albuquerque, NM"></abbr>
                     <p><em>Pherkad</em> is named after a star in the Little Dipper constellation.  Once, astronomers believed <em>Pherkad</em> and its neighboring star Kochab to be the Guardians of the Center of the Universe, as they rotate around night sky's central point-  Polaris, the North Star. <br><br>
-                        Originally the brainchild of guitarist <em> Jason Bowers </em> and drumming lead-vocalist <em>“Cheese”, </em<em>Pherkad</em> has grown from a duo into a four-piece jam band paving a path through the comfortable and familiar and well beyond into the sonic unknown. <br> <br> 
+                        Originally the brainchild of guitarist <em> Jason Bowers </em> and drumming lead-vocalist <em>“Cheese”, </em><em>Pherkad</em> has grown from a duo into a four-piece jam band paving a path through the comfortable and familiar and well beyond into the sonic unknown. <br> <br> 
                         Next to join the outfit, chronologically, was the talented keyboardist <em>Zac Ramsey</em>, who gets ultra-funky ticklin' the ivories every night until they just can't take anymore.  <br><br>
                         Holding down the low end is bassist<br> <em>Chris “Chrispy” Patchett</em>, who has been dropping bass bombs as well as showcasing his songwriting talent, taking lead vocals occasionally.</p> <br><br> 
                     <p id="last-p">Get ready to blast off-- <em>Pherkad</em> is going to take you on a jamtastic voyage with their well composed, tasteful and downright funky blend of music.  <br>
@@ -72,21 +83,22 @@
                 </div>
             </section>
             
-            <!-- Music Section -->
-            <section id="music">
+            <!-- MUSIC/DISCOGRAPHY SECTION -->
+            <section class="flex-col" id="music">
                 <h2 >Music & Discography</h2>
-                <!-- follow on bandcamp button -->
+                <!-- BANDCAMP BUTTON -->
                 <div class="flex-col">
                     <iframe scrolling="no" style="margin: 10px 0 10px 50%; border: 0;width: 100%;height: 33px;" src="https://bandcamp.com/band_follow_button_classic/933754338"></iframe>
                 </div>
-                 <!-- end of bandcamp button -->
-                <!-- Album- Learning to Fly Again -->
+                 <!-- END OF BANDCAMP BUTTON -->
+
+                <!-- ALBUM: LEARNING TO FLY AGAIN -->
                 <div class="flex-cont flex-col">
                     <div class="flex-col">
                         <a class="color-link" href="https://pherkadmusic.bandcamp.com/album/learning-to-fly-again"><h3>Learning to Fly Again (2018)</h3></a>
                         <abbr title="Pherkad- Learning to Fly Again Album Cover"><img src="LtFA Album cover.jpg" alt="Pherkad- Learning to Fly Again Album Cover"></abbr>
                     </div>
-                    <div class="track-list">
+                    <div class="flex-col track-list">
                         <ol>
                             <li><a class="color-link" href="https://pherkadmusic.bandcamp.com/track/blue-diamond">Blue Diamond</li></a>
                             <li><a class="color-link" href="https://pherkadmusic.bandcamp.com/track/my-friend">My Friend</a> <br><i>(feat. Ben Wright on guitar)</i></li>
@@ -103,13 +115,13 @@
                     </div>    
 
                 </div>
-                <!-- Album- Suspended in Space  -->
+                <!-- ALBUM: SUSPENDED IN SPACE -->
                 <div class="flex-cont flex-col">
                     <div class="flex-col">
                         <a class="color-link" href="https://pherkadmusic.bandcamp.com/album/suspended-in-space"><h3>Suspended in Space (2016)</h3></a>
                         <abbr title="Pherkad- Suspended in Space Album Cover"><img id="susinspace" src="Pherkad-Suspended in Space.jpg" alt="Pherkad- Suspended in Space Album Cover"></abbr>
                     </div>
-                    <div class="track-list">    
+                    <div class="flex-col track-list">    
                         <ol>
                             <li><a class="color-link" href="https://pherkadmusic.bandcamp.com/track/open-season">Open Season</li></a>
                             <li><a class="color-link" href="https://pherkadmusic.bandcamp.com/track/yin-yang">Yin Yang</li></a>
@@ -121,18 +133,25 @@
                     </div>
                 </div>
 
-                <!-- follow on bandcamp button -->
+                <!-- BANDCAMP BUTTON -->
                 <div class="flex-col">
                     <iframe scrolling="no" style="margin: 10px 0 10px 50%; border: 0;width: 100%;height: 33px;" src="https://bandcamp.com/band_follow_button_classic/933754338"></iframe>
                 </div>
-                <!-- end of bandcamp button -->
-                <!-- Archive.org link -->
+                <!-- END OF BANDCAMP BUTTON -->
+
+                <!--   ARCHIVE.ORG LINK -->
                 <div class="flex-cont flex-col">
-                    <h3>Listen to and download over 100 Live Pherkad Shows for Free at <a class="color-link" href="https://www.archive.org/details/Pherkad"><h4>Archive.org/details/Pherkad</h4></a></h3>
+                    <h3>Listen to and download over 100 Live Pherkad Shows for Free at 
+                    </h3>
+                    <a class="color-link" href="https://www.archive.org/details/Pherkad">
+                        Archive.org/details/Pherkad
+                    </a>
+                    
                 </div> 
             </section>
 
-            <section id="gallery">
+            <!-- GALLERY SECTION -->
+            <section class="flex-col" id="gallery">
                 <h2 >Gallery</h2>
                 <div class="flex-cont">
                         <abbr title="Pherkad at Marble Brewery with Ezra Bussman"><img src="Pherkad-at Marble (C. Donaldson).jpg" alt="Pherkad at Marble Brewery with Ezra Bussman"></abbr>                
@@ -148,72 +167,87 @@
                 </div>
             </section>
 
-            <!-- Upcoming Shows Section -->
-            <section id="tour">
+            <!-- UPCOMING SHOWS SECTION -->
+            <section class="flex-col" id="tour">
                 <h2>Upcoming Shows</h2>
+
                 <!-- NO SHOWS PLACEHOLDER MESSAGE (choose one!) -->
                 <!-- <p>
                     <em>Pherkad </em> does not have any scheduled dates at this time.<br>
                     Please check again soon.
                 </p> -->
-                <p>
+                
+                <!-- <p class="flex-cont">
                     <em>Pherkad</em> has several exciting show announcements coming very soon!<br>
                     Stay Tuned!
-                </p>
-                <!-- End of No shows placeholder message -->
+                </p> -->
+                <!-- END OF NO SHOWS PLACEHOLDER MESSAGE -->
                 
                 <!-- EXAMPLE SHOW ENTRY -->
-                <!-- <h3>Friday, November 21st, 2025 -</h3>
+                <!-- <div class="flex-cont flex-col"></div>
+                 <h3>Friday, November 21st, 2025 -</h3>
                 <p id="tour-p">
                      <br> Plancksgiving @ Pho Cao, Scottsdale, AZ (Opening for Planck)
                 </p> -->
-                <!-- Example Show Poster -->
+                <!-- EXAMPLE SHOW POSTER    -->
                 <!-- <abbr title="Pherkad plays Plancksgiving @ Pho Cao, Scottsdale, AZ 11-21-25">
                     <img class="show-poster" src="Plancksgiving2025.png" alt="Poster for Plancksgiving @ Pho Cao, Scottsdale, AZ 11-21-25">
                 </abbr>  -->
-                <!-- End of Example Show Entry -->  
+                <!-- END OF EXAMPLE SHOW ENTRY -->  
                  
-                <!-- Upcoming shows: Un-comment when announced! -->
-                <!-- <h3>Saturday, May 30th, 2026 -</h3>
-                <p id="tour-p">
-                    Pherkad (Opening for Photon) 
-                    <br>Lauterhaus Brewery, Farmington, NM
-                    <br>6-9pm
-                    <br>Click to see <a class="color-link" href="https://www.facebook.com/share/14UHBp2rbbi/">Event Page</a>
-                </p>
-                <abbr title="Pherkad plays Lauterhaus Brewery, Farmington, NM 5-30-26">
-                    <img class="show-poster" src="Pherkad Trio Canteen.jpg" alt="Poster for Lauterhaus Brewery, Farmington, NM 5-30-26">
-                </abbr> 
 
-                <h3>Friday, June 26th, 2026 -</h3>
-                <p id="tour-p">
-                     Pherkad (Opening for Detroit Lightning) 
-                     <br>Railyards, Santa Fe, NM
-                     <br>6-9pm
-                     <br>Click to see <a class="color-link" href="https://www.facebook.com/share/14UHBp2rbbi/">Event Page</a>
-                </p>
-                <abbr title="Pherkad plays Railyards, Santa Fe, NM 6-26-26">
-                    <img class="show-poster" src="Pherkad Trio Canteen.jpg" alt="Poster for Pherkad and Detroit Lightning at Railyards, Santa Fe, NM 6-26-26">
-                </abbr>  
+                <!-- UPCOMING SHOWS: Un-comment when announced! -->
 
-                <h3>Friday, June 27th <br>and<br> Saturday, June 28th, 2026 -</h3>
-                <p id="tour-p">
-                     Two Special Nights with Pherkad and Planck!
-                     <br>The Hall, Albuquerque, NM
-                     <br>6-9pm
-                     <br>Click to see <a class="color-link" href="https://www.facebook.com/share/14UHBp2rbbi/">Event Page</a>
-                </p>
-                <abbr title="Pherkad and Planck play The Hall, Albuquerque, NM 6-27 and 6-28-26">
-                    <img class="show-poster" src="Pherkad Trio Canteen.jpg" alt="Poster for Pherkad and Planck at The Hall, Albuquerque, NM 6-27 and 6-28-26">
-                </abbr>     -->
+                <div class="flex-cont flex-col">
+                    <h3>Saturday, May 30th, 2026 -</h3>
+                    <p id="tour-p">
+                        Pherkad (Opening for Photon) 
+                        <br>Lauterhaus Brewery, Farmington, NM
+                        <br>6-9pm
+                        <br>Click to see <a class="color-link" href="https://www.facebook.com/events/1419696199912887">Event Page</a>
+                    </p>
+                    <abbr title="Pherkad opens for Photon at Lauterhaus Brewery 5-30-26">
+                        <img class="show-poster" src="Photon Pherkad Lauterhaus.jpg" alt="Poster for Pherkad (opening for Photon) @ Lauterhaus Brewery 5-30-26">
+                    </abbr>                     
+                </div>
+
+
+                <!-- <div class="flex-cont flex-col">
+                    <h3>Friday, June 26th, 2026 -</h3>
+                    <p id="tour-p">
+                        Pherkad (Opening for Detroit Lightning) 
+                        <br>Railyards, Santa Fe, NM
+                        <br>6-9pm
+                        <br>Click to see <a class="color-link" href="https://www.facebook.com/share/14UHBp2rbbi/">Event Page</a>
+                    </p>
+                    <abbr title="Pherkad plays Railyards, Santa Fe, NM 6-26-26">
+                        <img class="show-poster" src="Pherkad Trio Canteen.jpg" alt="Poster for Pherkad and Detroit Lightning at Railyards, Santa Fe, NM 6-26-26">
+                    </abbr>                      
+                </div> -->
+
+                <!-- <div class="flex-cont flex-col">
+                    <h3>Friday, June 27th <br>and<br> Saturday, June 28th, 2026 -</h3>
+                    <p id="tour-p">
+                        Two Special Nights with Pherkad and Planck!
+                        <br>The Hall, Albuquerque, NM
+                        <br>6-9pm
+                        <br>Click to see <a class="color-link" href="https://www.facebook.com/share/14UHBp2rbbi/">Event Page</a>
+                    </p>
+                    <abbr title="Pherkad and Planck play The Hall, Albuquerque, NM 6-27 and 6-28-26">
+                        <img class="show-poster" src="Pherkad Trio Canteen.jpg" alt="Poster for Pherkad and Planck at The Hall, Albuquerque, NM 6-27 and 6-28-26">
+                    </abbr>    
+                </div> -->
                
+                <!-- END OF UPCOMING SHOWS -->
             </section>
 
-            <section id="booking">
+            <!-- BOOKING SECTION -->
+            <section class="flex-col" id="booking">
                 <h2>Booking</h2>
 
-                <p>To Download Pherkad's Electronic Press Kit 
-                    <br><a class="color-link" href="2026 Pherkad EPK (dark).pdf" download="Pherkad EPK 2026">CLICK HERE</a></p>
+                <p class="flex-cont">To Download Pherkad's <br>Electronic Press Kit:<br>
+                    <a class="color-link" href="2026 Pherkad EPK (dark).pdf" download="Pherkad EPK 2026">CLICK HERE</a>
+                </p>
 
                 <h4>Pherkad would  love to come play your venue or event (probably). <br>
                     Please give us a bit of information first.</h4>
@@ -250,11 +284,13 @@
                     <button  type="submit">Submit</button>
                 </form>
             </section>
+            <!-- END OF BOOKING SECTION -->
         </main>
-        <footer>
+        
+        <footer class="flex-col">
             <h3>Thanks for visiting!</h3>
             <h2>Pherkad Loves You!</h2>
-            <div class="flex-cont">
+            <div class="flex-cont flex-row footer">
                 <div>
                     <a class="color-link" href="https://www.facebook.com/PherkadMusic">Follow us!</a><br>
                 </div>
