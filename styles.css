@@ -353,4 +353,8 @@ button {
     ol {
         width: 90%;
     }
+    .popup-image {
+        max-width: 90%;
+        max-height: 30vh;
+    }
 }
