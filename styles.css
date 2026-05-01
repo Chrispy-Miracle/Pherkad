@@ -22,7 +22,7 @@
     flex-wrap: wrap;
     background-color: rgb(30, 2, 49);
     border: 2px solid indigo;
-    width:92vw;
+    max-width:92vw;
     border-radius: 10px;
     padding: 10px;
     margin: 20px 0;
@@ -344,9 +344,6 @@ button {
     }
     h1 {
         font-size: 3em;
-    }
-    h2 {
-        font-size: 2em;
     }
     h3 {
         font-size: 1em;
