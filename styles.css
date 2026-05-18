@@ -73,7 +73,7 @@ nav{
     top: 0;
     z-index: 9;
     border: 2px solid indigo;
-    background-image: url(Pherkad\ LtFA-bg3.jpg);
+    background-image: url(images/Pherkad\ LtFA-bg3.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -114,7 +114,7 @@ h1 {
     height: fit-content;
     border: 1px solid white;
     border-radius: 10px;
-    background-image: url(Pherkad\ LtFA-bg3.jpg);
+    background-image: url(images/Pherkad\ LtFA-bg3.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     font-family: 'Cambria', 'Garamond', Georgia, serif;
@@ -124,7 +124,7 @@ h1 {
 h2 {
     padding: .5em;
     margin: 1.5em;
-    background-image: url(Pherkad\ LtFA-bg3.jpg);
+    background-image: url(images/Pherkad\ LtFA-bg3.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     min-width: fit-content;
