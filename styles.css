@@ -381,7 +381,7 @@ button {
         max-height: 15vh;
     }
     .popup-cont {
-        max-height: 90vh;
+        max-height: 95vh;
         width: 85%;
     }
     .popup-info {
@@ -389,7 +389,7 @@ button {
         width: 95%;
     }
     .popup-cont h2 {
-        font-size: .9em;
+        font-size: .8em;
     }
     .popup-cont h3 {
         font-size: .7em;
