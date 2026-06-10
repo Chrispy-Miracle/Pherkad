@@ -318,21 +318,21 @@ button {
         flex-direction: row;
         align-items: center;
     }
-    .popup-image img{
-        max-width: 15%;
-        max-height: 10%;
+    .popup-cont img{
+        max-width: 25%;
+        max-height: 25%;
     }
     .popup-cont h2 {
         font-size: .8em;
     }
     .popup-cont h3 {
-        font-size: .7em;
-    }
-    .popup-cont p {
         font-size: .6em;
     }
+    .popup-cont p {
+        font-size: .5em;
+    }
     .popup-cont {
-        min-width: fit-content;
+        width: fit-content;
         max-height: 95vh;
     }
     .flex-cont {
@@ -376,7 +376,7 @@ button {
     ol {
         width: 90%;
     }
-    .popup-image {
+    .popup-cont img {
         max-width: 75%;
         max-height: 15vh;
     }
