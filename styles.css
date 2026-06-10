@@ -319,14 +319,14 @@ button {
         align-items: center;
     }
     .popup-image img{
-        max-width: 15vw;
+        max-width: 15%;
         max-height: 10%;
     }
     .popup-cont h2 {
         font-size: .8em;
     }
     .popup-cont h3 {
-        font-size: .6em;
+        font-size: .7em;
     }
     .popup-cont p {
         font-size: .6em;
@@ -386,7 +386,7 @@ button {
     }
     .popup-info {
         flex-direction: column;
-        width: 90%;
+        width: 95%;
     }
     .popup-cont h2 {
         font-size: 1em;
