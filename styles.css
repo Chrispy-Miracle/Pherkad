@@ -318,9 +318,9 @@ button {
         flex-direction: row;
         align-items: center;
     }
-    .popup-image {
+    .popup-image img{
         max-width: 15vw;
-        height: 15%;
+        max-height: 10%;
     }
     .popup-cont h2 {
         font-size: .8em;
@@ -350,7 +350,7 @@ button {
         left: 0;
     }
     nav {
-        height: 13vh;
+        /* height: 13vh; */
         max-width: 100%;
         justify-content: right;
     }
@@ -378,7 +378,7 @@ button {
     }
     .popup-image {
         max-width: 75%;
-        max-height: 20vh;
+        max-height: 15vh;
     }
     .popup-cont {
         max-height: 90vh;
@@ -389,10 +389,10 @@ button {
         width: 90%;
     }
     .popup-cont h2 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
     .popup-cont h3 {
-        font-size: 1em;
+        font-size: .9em;
     }
     .popup-cont p {
         font-size: .8em;
