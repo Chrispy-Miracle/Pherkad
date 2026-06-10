@@ -389,12 +389,12 @@ button {
         width: 95%;
     }
     .popup-cont h2 {
-        font-size: 1em;
+        font-size: .9em;
     }
     .popup-cont h3 {
-        font-size: .8em;
+        font-size: .7em;
     }
     .popup-cont p {
-        font-size: .6em;
+        font-size: .5em;
     }
 }
