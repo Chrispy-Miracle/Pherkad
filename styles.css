@@ -278,8 +278,7 @@ button {
     padding: 5px 5vw;;
     margin: 10px;
 }
-.footer {
-    margin-top:5vh;
+#footer {
     padding: 2vh;
     width: 90%;
     justify-content: space-around;
